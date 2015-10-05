@@ -90,11 +90,6 @@ div {
   z-index: 2;
 }
 
-.blue .tile__image{
-    content:url('../img/players/Blueplayer.png');
-    z-index: 5;
-}
-
 .btn__place {
     z-index: 3;
     position: absolute;
