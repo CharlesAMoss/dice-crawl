@@ -120,7 +120,7 @@ div {
   transform: rotate(0deg);
 }
 
-.player1{
+/*.player1{
     border-radius: 50%;
 }
 
@@ -130,15 +130,20 @@ div {
 
 .player3{
     border-radius: 50%;
-}
-
-/*.blue{
-    content:url(http://www.mathwarehouse.com/calculators/images/blue-square.png);
-    position: absolute;
-    top: 25px;
-    left: 25px;
+    position: relative;
+    top: 5vh;
+    left: 5vh;
     z-index: 5;
 }*/
+
+
+.player-marker{
+    border-radius: 50%;
+    position: relative;
+    top: 5vh;
+    left: 2vh;
+    z-index: 5;
+}
 
 .blue{
     position: absolute;
@@ -149,4 +154,8 @@ div {
 
 
 .place {
+}
+
+.playerdefault{
+    display: none;
 }

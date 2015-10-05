@@ -13,6 +13,7 @@ diceCrawl.directive("rotateTile", function() {
     };
 });
 
+<<<<<<< HEAD
 
 diceCrawl.directive("place", function() {
     return function (scope, element) {
@@ -26,6 +27,9 @@ diceCrawl.directive("place", function() {
 
 /*
 diceCrawl.directive("placePlayer", function() {
+=======
+diceCrawl.directive("showPlayer", function() {
+>>>>>>> master
     return function (scope, element) {
         element.bind("click", function() {
             if (i<4) {
